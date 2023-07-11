@@ -1,0 +1,31 @@
+.paginado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.paginado button{
+    width: 40px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px, 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    background-color: #eee;
+}
+
+.paginado button.active{
+    font-weight: 900;
+    border-color: #101010;
+    background: linear-gradient(
+        90deg,
+        #dd95F7 0% 50%, #7fc9d9 100%
+    );
+    color: #101010;
+}

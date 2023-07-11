@@ -1,0 +1,45 @@
+.Home{
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.container-div{
+    display: flex;
+}
+
+.gruop_Father{
+    background-color: darkorchid;
+    padding: 1px;
+}
+
+.group_Filter{
+    padding: 10px;
+    margin: 20px;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.group_Filter_Two{
+    padding: 10px;
+    margin: 20px;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+
+.select_Filter{
+    background-color: blue;
+}

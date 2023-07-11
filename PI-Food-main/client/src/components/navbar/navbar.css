@@ -1,0 +1,54 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fdd037;
+    backdrop-filter: blur(5px);/*desenfocado de componentes*/
+    box-shadow: 15px 15px 10px #000;
+    border-radius: 12px;
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.home{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.home:hover{
+    color: #ffff;
+}
+
+.form{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.form:hover{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+}
